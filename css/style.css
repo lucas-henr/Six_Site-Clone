@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,700&family=Oswald:wght@700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-color: #1f2120;
+}
+body::-webkit-scrollbar{
+	width: 5px;
+}
+
+body::-webkit-scrollbar-track{
+	background:  #1f2120;
+}
+
+body::-webkit-scrollbar-thumb{
+	background-color: #313aa3;
+	border-radius: 8px;
+}
+
+.color-span {
+	color: #313aa3;
+}
+
+.navbar-brand {
+	font-size: 25px;
+}
+
+.text-white { 
+	font-size: 15px;
+}
+
+.nav-link text-white:hover {
+	color: #313aa3;
+}
+
+.home {
+	display: flex;
+	justify-content: center;
+	padding: 200px;
+	flex-direction: column;
+}
+
+.home-slogam {
+	color: #fff;
+	text-align: center;
+	font-family: 'Libre Bodoni', serif;
+	font-size: 35px;
+	width: 100%;
+}
+
+.home-text {
+	color: #7d7b7a;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.home-butons {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.home-adicionar {
+	box-shadow: 0 0 0.5em white;
+	background-color: #191b1d;
+	padding: 20px;
+	border-radius: 7px;
+}
+.adicionar-bot {
+	color: white;
+	text-decoration: none;
+}
+.home-suport {
+	box-shadow: 0 0 0.5em white;
+	border-radius: 7px;
+	margin-left: 50px;
+	background-color: #191b1d;
+	padding: 20px;
+}
+.suport-server {
+	color: white;
+	text-decoration: none;
+}
+
+.sobre {
+	text-align: center;
+	flex-direction: column;
+}
+
+.sobre-title {
+	color: #fff;
+	margin-top: -50px;
+}
+
+.sobre-texto {
+	width: 600px;
+	font-size: 26px;
+	color: #7d7b7a;
+	padding: -100px;
+	margin-left: 366px;
+	transition: all 0.5s ease-out;
+}
+
+.sobre-texto:hover{
+	color: #fff;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top:  50px;
+	background-color: #0b0d0c;
+
+}
+
+.footer-copy {
+	color: #fff;
+	margin-top: 11px;
+}
+
+.pag-comandos{
+	padding: 100px;
+	text-decoration: none;
+}
+
+.comandos-title{
+	color: #fff;
+	text-align: center;
+	padding: 30px;
+}
+
+.grid-comandos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titulo-comandos {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.descrição-comandos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px;
+    margin-top: 50px;
+}
+
+td {
+    padding: 10px 10px;
+}
+
+.nome-do-comando {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.descrição-do-comando {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.aliase-do-comando {
+    color: white;
+    font-size: 20px;
+}
+
+.comando {
+    color: dimgray;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.9s ease 0s;
+}
+
+.comando:hover {
+    color: white;
+}
+
+.moderação {
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comandos {
+    background-color: rgb(52, 196, 50);
+    color: white;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.recursos {
+	display: flex;
+	justify-content: center;
+	background-color: #191b1d;
+}
+
+
+.recurso {
+	padding: 30px;
+}
+
+.recurso-title{
+	color: #fff;
+	margin-left: -100px;
+}
+
+.recurso-texto{
+	color: #7d7b7a;
+}
+
+.recurso-img{
+	display: flex;
+	width: 300px;
+	height: auto;
+	margin-left: -420px;
+	margin-top: -70px;
+}
+
+.tituloGridComands {
+	color: #fff;
+	margin-bottom: -5px;
+	margin-top: 50px;
+	margin-left: 20px;
+	font-size: 35px;
+	transition: all 0.5s ease-out;
+}
+.tituloGridComands:hover{
+	color: #313aa3;
+}
+.text-commands {
+	margin-top: 3%;
+}
+.titulo-commands {
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+table {
+	width: 70%;
+	height: auto;
+}
+.mod {
+	color: #7d7b7a;
+	margin-top: 3%;
+	transition: all 0.5s ease-out;
+}
+.mod:hover {
+	color: #fff;
+}
+.titulos-mod {
+	color: #7289DA;
+}
+.utils {
+	color: #7d7b7a;
+	margin-top: 5%;
+	transition: all 0.5s ease-out;
+}
+.utils:hover {
+	color: #fff;
+}
+.titulos-utils {
+	color: #7289DA;
+}
+.fun {
+	color: #7d7b7a;
+	margin-top: 5%;
+	transition: all 0.5s ease-out;
+}
+.fun:hover {
+	color: #fff;
+}
+.titulos-fun {
+	color: #7289DA;
+}
+.setaveis {
+	color: #7d7b7a;
+	margin-top: 5%;
+	transition: all 0.5s ease-out;
+}
+.setaveis:hover {
+	color: #fff;
+}
+.titulos-sets {
+	color: #7289DA;
+}
+
+.navbar-collapse:hover{
+	color: #313aa3;
+}
+

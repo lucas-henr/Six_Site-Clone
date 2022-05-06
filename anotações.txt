@@ -1,0 +1,5 @@
+CORES:
+
+1- #1f2120 cinza
+2- #0b0d0c Preto    
+3- #313aa3 Azul
